@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>DogPhotoApp</title>
+  </head>
+  <body>
+    <main>
+      <h1>DogPhotoApp</h1>
+      <section>
+        <h2>Dog Photos</h2>
+        <!-- TODO: Add link to dog photos -->
+       <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg" width="300px" >
+      </section>
+      <section>
+        <h2>Dog Lists</h2>
+        <h3>Things Dogs love:</h3>
+        <ul>
+            <li>trophies</li>
+            <li>  Always being by your side</li>
+            <li>Swimming</li>
+            <li>Eating alone </li>
+          </ul>
+          <figure>
+            <img src="https://t2.ea.ltmcdn.com/en/posts/3/0/2/eating_alone_1203_1_600.webp">
+            <figcaption>Dogs <em>love</em> eating alone.</figcaption>  
+          </figure>
+          <h3>Top 3 things dogs hate:</h3>
+          <ol>
+            <li>Inconsistency</li>
+            <li>Inactivity.</li>
+            <li>other dogs</li>
+          </ol>
+          <figure>
+            <img src="https://www.thesprucepets.com/thmb/8BLAz04QoqKxz79Vf38WafQ-KrQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/things-dogs-cant-stand-1117467-hero-74f7909190994394952fe71cc736fff5.jpg">
+            <figcaption>dogs <strong>hate</strong> other dogs.</figcaption>  
+         
+        </figure>
+      </section>
+      <section>
+        <h2>Dog Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your dog an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+        </fieldset>
+        <fieldset>
+          <legend>What's your Dogs personality?</legend>
+          <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+          <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+          <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+        </fieldset>
+        <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
